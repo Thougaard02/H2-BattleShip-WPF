@@ -7,6 +7,149 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <!--Row A-->
+        <Grid Background="AliceBlue" Name="A1" Grid.Row="0" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="A2" Grid.Row="0" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="A3" Grid.Row="0" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="A4" Grid.Row="0" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="A5" Grid.Row="0" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="A6" Grid.Row="0" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="A7" Grid.Row="0" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="A8" Grid.Row="0" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="A9" Grid.Row="0" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="A10" Grid.Row="0" Grid.Column="9"></Grid>
 
+        <!--Row B-->
+        <Grid Background="AliceBlue" Name="B1" Grid.Row="1" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="B2" Grid.Row="1" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="B3" Grid.Row="1" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="B4" Grid.Row="1" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="B5" Grid.Row="1" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="B6" Grid.Row="1" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="B7" Grid.Row="1" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="B8" Grid.Row="1" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="B9" Grid.Row="1" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="B10" Grid.Row="1" Grid.Column="9"></Grid>
+
+        <!--Row C-->
+        <Grid Background="AliceBlue" Name="C1" Grid.Row="2" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="C2" Grid.Row="2" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="C3" Grid.Row="2" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="C4" Grid.Row="2" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="C5" Grid.Row="2" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="C6" Grid.Row="2" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="C7" Grid.Row="2" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="C8" Grid.Row="2" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="C9" Grid.Row="2" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="C10" Grid.Row="2" Grid.Column="9"></Grid>
+
+        <!--Row D-->
+        <Grid Background="AliceBlue" Name="D1" Grid.Row="3" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="D2" Grid.Row="3" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="D3" Grid.Row="3" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="D4" Grid.Row="3" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="D5" Grid.Row="3" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="D6" Grid.Row="3" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="D7" Grid.Row="3" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="D8" Grid.Row="3" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="D9" Grid.Row="3" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="D10" Grid.Row="3" Grid.Column="9"></Grid>
+
+        <!--Row E-->
+        <Grid Background="AliceBlue" Name="E1" Grid.Row="4" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="E2" Grid.Row="4" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="E3" Grid.Row="4" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="E4" Grid.Row="4" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="E5" Grid.Row="4" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="E6" Grid.Row="4" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="E7" Grid.Row="4" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="E8" Grid.Row="4" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="E9" Grid.Row="4" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="E10" Grid.Row="4" Grid.Column="9"></Grid>
+
+        <!--Row F-->
+        <Grid Background="AliceBlue" Name="F1" Grid.Row="5" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="F2" Grid.Row="5" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="F3" Grid.Row="5" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="F4" Grid.Row="5" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="F5" Grid.Row="5" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="F6" Grid.Row="5" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="F7" Grid.Row="5" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="F8" Grid.Row="5" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="F9" Grid.Row="5" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="F10" Grid.Row="5" Grid.Column="9"></Grid>
+
+        <!--Row G-->
+        <Grid Background="AliceBlue" Name="G1" Grid.Row="6" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="G2" Grid.Row="6" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="G3" Grid.Row="6" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="G4" Grid.Row="6" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="G5" Grid.Row="6" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="G6" Grid.Row="6" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="G7" Grid.Row="6" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="G8" Grid.Row="6" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="G9" Grid.Row="6" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="G10" Grid.Row="6" Grid.Column="9"></Grid>
+
+        <!--Row H-->
+        <Grid Background="AliceBlue" Name="H1" Grid.Row="7" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="H2" Grid.Row="7" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="H3" Grid.Row="7" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="H4" Grid.Row="7" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="H5" Grid.Row="7" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="H6" Grid.Row="7" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="H7" Grid.Row="7" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="H8" Grid.Row="7" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="H9" Grid.Row="7" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="H10" Grid.Row="7" Grid.Column="9"></Grid>
+
+        <!--Row I-->
+        <Grid Background="AliceBlue" Name="I1" Grid.Row="8" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="I2" Grid.Row="8" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="I3" Grid.Row="8" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="I4" Grid.Row="8" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="I5" Grid.Row="8" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="I6" Grid.Row="8" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="I7" Grid.Row="8" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="I8" Grid.Row="8" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="I9" Grid.Row="8" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="I10" Grid.Row="8" Grid.Column="9"></Grid>
+
+        <!--Row J-->
+        <Grid Background="AliceBlue" Name="J1" Grid.Row="9" Grid.Column="0"></Grid>
+        <Grid Background="AliceBlue" Name="J2" Grid.Row="9" Grid.Column="1"></Grid>
+        <Grid Background="AliceBlue" Name="J3" Grid.Row="9" Grid.Column="2"></Grid>
+        <Grid Background="AliceBlue" Name="J4" Grid.Row="9" Grid.Column="3"></Grid>
+        <Grid Background="AliceBlue" Name="J5" Grid.Row="9" Grid.Column="4"></Grid>
+        <Grid Background="AliceBlue" Name="J6" Grid.Row="9" Grid.Column="5"></Grid>
+        <Grid Background="AliceBlue" Name="J7" Grid.Row="9" Grid.Column="6"></Grid>
+        <Grid Background="AliceBlue" Name="J8" Grid.Row="9" Grid.Column="7"></Grid>
+        <Grid Background="AliceBlue" Name="J9" Grid.Row="9" Grid.Column="8"></Grid>
+        <Grid Background="AliceBlue" Name="J10" Grid.Row="9" Grid.Column="9"></Grid>
     </Grid>
 </Window>
