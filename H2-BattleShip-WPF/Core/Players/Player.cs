@@ -11,5 +11,12 @@ namespace H2_BattleShip_WPF.Core.Players
         public string Name { get; set; }
         public _2DBoard OwnBoard { get; set; }
         public _2DBoard EnemyBoard { get; set; }
+
+        public Player(string name, _2DBoard ownBoard, _2DBoard enemyBoard)
+        {
+            this.Name = name;
+            this.OwnBoard = ownBoard;
+            this.EnemyBoard = enemyBoard;
+        }
     }
 }

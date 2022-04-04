@@ -11,5 +11,10 @@ namespace H2_BattleShip_WPF.Core.Board
         const int COLUMNS = 10;
         const int ROWS = 10;
         public List<_2DShips> Ships { get; set; }
+
+        public _2DBoard()
+        {
+            Ships = new List<_2DShips>();
+        }
     }
 }
