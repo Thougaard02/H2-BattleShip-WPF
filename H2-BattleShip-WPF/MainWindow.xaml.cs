@@ -27,11 +27,16 @@ namespace H2_BattleShip_WPF
         {
             InitializeComponent();
             game = new GameManager();
+            
+        }
+
+        private void ShowAllShips()
+        {
             foreach (var ship in game.Players.FirstOrDefault().OwnBoard.Ships)
             {
                 foreach (_2DCoordinate coordinate in ship.Coordinates)
                 {
-                    
+
                     Label label = new Label();
                     label.Name = ship.Name;
                     label.Content = ship.Name;
@@ -42,6 +47,5 @@ namespace H2_BattleShip_WPF
                 }
             }
         }
-        
     }
 }
